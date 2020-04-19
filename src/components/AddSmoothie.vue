@@ -16,8 +16,11 @@
       </div>
 
       <div class="field add-ingredient">
+
         <label for="add-ingredient">Hit Enter to Add Multiple Ingredients:</label>
+        <i class="mdi mdi-plus-circle add" @click='addIng'></i>
         <input type="text" name="add-ingredient" @keydown.enter.prevent='addIng' v-model="another">
+
       </div>
       <div class="progress" v-if="loading">
         <div class="indeterminate"></div>
@@ -120,6 +123,14 @@ export default {
     position: absolute;
     right: 0;
     bottom: 16px;
+    color: #aaa;
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+  .add-smoothie .add {
+    position: relative;
+    left: 10%;
+    top: 40px;
     color: #aaa;
     font-size: 1.4em;
     cursor: pointer;
