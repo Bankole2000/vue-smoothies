@@ -10,7 +10,7 @@
           <a href="https://vuejs.org" class="text-link" target="_blank"><i class="mdi mdi-vuejs"></i> VueJS</a> and
           <a href="https://firebase.com" class="text-link" target="_blank"><i class="mdi mdi-firebase"></i> Firebase</a> for practice, and
           demonstration purposes. <a href="https://bankole2000.github.io/portfolio"
-          class="text-link">The Developer</a> is currently available for projects,
+          class="text-link" target="_blank">The Developer</a> is currently available for projects,
           collaborations, training, and/or remote employment.</p>
         <p class="grey-text text-lighten-4">Feel free to
           <a href="tel:+2348069166906" class="text-link">
