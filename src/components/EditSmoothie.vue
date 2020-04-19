@@ -6,7 +6,7 @@
      <form v-if="smoothie" @submit.prevent ="editSmoothie">
       <div class="field title">
         <label for="title">Smoothie Title:</label>
-        <input type="text" name="title" v-model="smoothie.title">
+        <input type="text" name="title" v-model="smoothie.title" autocomplete="off">
       </div>
      <div class="row" v-for="(ing, index) in smoothie.ingredients" :key="index">
           Ingredient No {{index + 1}}:
